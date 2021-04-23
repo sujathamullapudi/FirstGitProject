@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="testng_demo(failed)">
+    <classes>
+      <class name="com.automation.selenium.TestNG.TestNgDemo">
+        <methods>
+          <include name="loginTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.automation.selenium.TestNG.TestNgDemo -->
+    </classes>
+  </test> <!-- testng_demo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

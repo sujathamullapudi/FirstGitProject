@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="testng_demo">
+    <classes>
+  <!--  <class name="com.automation.selenium.annotations.TestNG1"/>
+      <class name="com.automation.selenium.TestNG.TestNgDemo"/> 
+      <class name = "com.automation.selenium.TestNG.ParametersDemo"/>-->
+      <class name = "com.automation.selenium.TestNG.Demo"/>
+    </classes>
+  </test> <!-- testng_demo -->
+</suite> <!-- Suite -->
